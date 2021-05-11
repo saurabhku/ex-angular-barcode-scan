@@ -16,7 +16,6 @@ export class ScanBarcodeComponent implements OnInit {
   onKey(event: any) {
     console.log("EVENT!!!!!!!!!!!!!!" + event)
     this.barcode=event.target.value;
-  //  this.barcode =( event.target as HTMLInputElement).value;
 }
 
 }
