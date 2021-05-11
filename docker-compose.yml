@@ -1,0 +1,4 @@
+frontend:
+    image: ex-angular-barcode-scan:latest
+    ports:
+      - "8888:80"
